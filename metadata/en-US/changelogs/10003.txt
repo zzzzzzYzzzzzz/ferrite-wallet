@@ -1,0 +1,31 @@
+[![ferrite-app-banner-2048x1000](https://github.com/user-attachments/assets/4e968296-7e8d-4061-957d-b26488b7b28b)](https://github.com/koh-gt/ferrite-wallet/releases/download/v1.0.1/ferrite-wallet-1.0.1.apk)
+
+
+| <img alt=download-logo-1 src=https://github.com/user-attachments/assets/b8ab9dad-87c2-4c4a-8772-2f1cb23c7b6f height=32>| SHA256 Hash |
+|-|-|
+| [<img alt=download-1 src=https://github.com/koh-gt/ferrite-core/assets/101822992/70ae208a-caaa-40ff-856c-42e87745e8c3 width=200>](https://github.com/koh-gt/ferrite-wallet/releases/download/v1.0.3/ferrite-wallet-1.0.3.apk) | `109bd220d41d111deb62bacabf7f6a0cc1feff96c855b85eb01ed5d7466b2d91` <br> _ferrite-wallet-1.0.3.apk_ |
+
+### Before updating, remember to **back up your wallet!**
+
+## Ferrite Wallet for Android
+Ferrite Wallet is designed for self-custody of ferritecoins on Android mobile devices. 
+Built on the foundation of [Schildbach Wallet 6.41](https://github.com/bitcoin-wallet/bitcoin-wallet/tree/v6.41), this lightweight wallet offers full support for Android 4.4 KitKat and above.
+
+This wallet has been tested up to Android 14 Upside Down Cake.
+
+## Key Features
+
+- Mobile Wallet - Carry your Ferritecoins with you wherever you go, right in your pocket. 
+- Simple payments - Make payments by simply scanning a QR code, and as a merchant, you can accept payments instantly and with confidence. This wallet implements Simplified Payment Verification (SPV), following the principles outlined in the Bitcoin whitepaper.
+- Self-custodial - No user registration, web service, or cloud storage is needed. You hold full control of your coins — remember, if you don’t have the keys, you don’t own the coins. Be sure to back up your wallet! 
+- Seamless transactions - Supports QR codes, URLs, and NFC for easy transactions. Even when you're offline, you can still make payments through Bluetooth. 
+- Global - Offers multi-language support. 
+
+## Note
+    Currently, only legacy Ferritecoin addresses (starting with 'F') are supported.
+    Balance may show zero if rescanning or if blockchain is not fully synchronised.
+
+* ferritej compiled on Ubuntu Linux 22.10 Jammy Jellyfish by koh-gt
+* ferrrite-wallet compiled on Windows 10 21H2 using Android Studio Koala Feature Drop 2024.1.2 by koh-gt
+Uploaded on 28 Sep 2024.
+Last updated on 28 Sep 2024.

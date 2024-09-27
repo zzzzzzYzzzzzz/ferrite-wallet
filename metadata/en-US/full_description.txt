@@ -1,0 +1,21 @@
+Securely store your Ferritecoins in this self-custodial wallet.
+
+This is the first release of Ferrite Wallet, designed for self-custody of ferritecoins on Android mobile devices.
+
+Key Features
+    Mobile Wallet - Carry your Ferritecoins with you wherever you go, right in your pocket.
+    Simple payments - Make payments by simply scanning a QR code, and as a merchant, you can accept payments instantly and with confidence. This wallet implements Simplified Payment Verification (SPV), following the principles outlined in the Bitcoin whitepaper.
+    Self-custodial - No user registration, web service, or cloud storage is needed. You hold full control of your coins — remember, if you don’t have the keys, you don’t own the coins. Be sure to back up your wallet!
+    Seamless transactions - Supports QR codes, URLs, and NFC for easy transactions. Even when you're offline, you can still make payments through Bluetooth.
+    Global - Offers multi-language support.
+
+Note
+    Currently, only legacy Ferritecoin addresses (starting with 'F') are supported.
+    Balance may show zero if rescanning or if blockchain is not fully synchronised.
+
+Contribute:
+    Ferritecoin Wallet is open source and free software.
+    Source code:
+    https://github.com/koh-gt/ferrite-wallet
+    Built on the foundation of Schildbach Wallet 6.41:
+    https://github.com/bitcoin-wallet/bitcoin-wallet/tree/v6.41
