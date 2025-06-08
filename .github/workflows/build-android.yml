@@ -1,4 +1,4 @@
-name: Build Android APK
+name: Build Ferrite Wallet APK
 
 on:
   push:
@@ -27,11 +27,7 @@ jobs:
         with:
           version: 8.x
 
-      - name: Make Gradle executable (if needed)
-        run: |
-          chmod +x ./gradle-*.jar || echo "No Gradle JAR found"
-
-      - name: Build project
+      - name: Build with Gradle
         run: |
           cd wallet
           gradle clean assembleDebug --no-daemon
@@ -39,5 +35,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v3
         with:
-          name: ferrite-wallet-debug
+          name: ferrite-debug-apk
           path: wallet/build/outputs/apk/debug/*.apk
